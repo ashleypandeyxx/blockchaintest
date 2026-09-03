@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
+    "target": "ES2023",
     "lib": [
       "dom",
       "dom.iterable",
@@ -34,15 +34,11 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    "**/*.mts",
+    "artifacts/**/*.d.ts"
   ],
   "exclude": [
     "node_modules",
-    "contracts",
-    "ignition",
-    "scripts",
-    "test",
-    "artifacts",
     "cache",
     "dist"
   ]
