@@ -19,7 +19,8 @@ next-env.d.ts
 /artifacts
 /cache
 /types
-/ignition/deployments
+# Local-chain deployments are throwaway; real ones are worth committing.
+/ignition/deployments/chain-31337
 /coverage
 /.gas-snapshot
 /snapshots
