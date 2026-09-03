@@ -136,7 +136,7 @@ export function ChatWindow({
       >
         <div className="mx-auto flex w-full max-w-3xl flex-col gap-5">
           {empty ? (
-            <div className="relative flex flex-col items-center px-4 pb-6 pt-8 text-center sm:pt-14">
+            <div className="relative flex flex-col items-center px-4 pb-6 pt-10 text-center sm:pt-16">
               <LeafStem className="absolute left-0 top-10 hidden h-40 w-16 text-[var(--accent)] opacity-25 md:block" />
               <LeafStem className="absolute right-0 top-10 hidden h-40 w-16 -scale-x-100 text-[var(--accent)] opacity-25 md:block" />
 
